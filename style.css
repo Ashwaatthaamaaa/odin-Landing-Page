@@ -89,3 +89,45 @@ button{
     width: max-content;
     padding: 8px;
 }
+
+
+
+.cards{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+}
+
+.cards-title{
+    align-self: center;
+    justify-self: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom:25px ;
+    margin-top:25px ;
+}
+
+.card-sec{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    gap: 15px;
+    margin-left: 300px ;
+    margin-right: 300px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.card-sec img{
+    border-radius:8px;
+    width:150px;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    max-height:300px;
+}
