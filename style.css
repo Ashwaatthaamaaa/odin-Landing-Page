@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: 'Roboto',sans-serif;
+}
+
+
+.header{
+    background-color: #1F2937;
+    margin: 0px;
+    padding: 40px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+
+.header-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 0;
+    margin-top: 50px;
+
+}
+
+.left-header{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    flex-basis: 350px;
+}
+
+
+
+img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.image img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 600px;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.text-head{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.text,.signup,.header-link{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+button{
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    width: max-content;
+    padding: 8px;
+}
