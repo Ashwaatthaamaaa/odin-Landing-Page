@@ -66,7 +66,7 @@ ul{
     gap: 16px;
 }
 
-a{
+a,.content{
     text-decoration: none;
     font-size: 18px;
     color:#E5E7EB;
@@ -162,4 +162,31 @@ button{
     font-size: 24px;
     font-weight: 800;
     margin-right: 160px;
+}
+
+
+.CTA-sec{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.CTA{
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 30px 50px  ;
+    gap:100px;
+    align-items: center;
+}
+
+.CTA button{
+    border: 2px solid #E5E7EB;
+}
+
+.CTA .heading{
+    font-size:24px ;
+    font-weight: 600;
 }
