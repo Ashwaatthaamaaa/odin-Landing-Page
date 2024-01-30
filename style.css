@@ -14,6 +14,7 @@ body{
     padding: 40px;
     padding-top: 0px;
     display: flex;
+    flex: 1;
     flex-direction: column;
     padding-left: 180px;
     padding-right: 180px;
@@ -94,6 +95,7 @@ button{
 
 .cards{
     display: flex;
+    flex: 1;
     background-color: white;
     flex-direction: column;
 }
@@ -104,7 +106,7 @@ button{
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
-    margin-bottom:25px ;
+    margin-bottom:50px ;
     margin-top:25px ;
 }
 
@@ -116,6 +118,7 @@ button{
     gap: 15px;
     margin-left: 300px ;
     margin-right: 300px;
+    margin-bottom: 150px;
     text-align: center;
     font-size: 18px;
 
@@ -130,4 +133,33 @@ button{
 
 .card{
     max-height:300px;
+}
+
+
+
+.quote-sec{
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 100px;
+    gap: 10px;
+}
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0 200px;
+
+}
+
+.citation{
+    display: flex;
+    align-self: end;
+    font-size: 24px;
+    font-weight: 800;
+    margin-right: 160px;
 }
